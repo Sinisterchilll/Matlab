@@ -1,6 +1,7 @@
 clear all;
 close all;
 clc;
+
 snr=-4:2:10;
 snr_linear=10.^(snr/10)
 ber_awgn_exact=qfunc(sqrt(snr_linear));
